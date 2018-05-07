@@ -74,6 +74,12 @@ git checkout -b <branchname>
 git checkout <branchname>
 git merge master
 ```
+* Copying changes from branch to master
+```
+git checkout master
+git merge <branchname>
+```
+
 * Delete remote branch
 ```
 git push origin --delete <branchname>
