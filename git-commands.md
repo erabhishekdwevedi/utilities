@@ -5,32 +5,33 @@
 ```
 git init
 ```
-* Clone existing repository
+* Clone existing repository to your local machine.
 
 ```
 git clone <repo url>
 ```
-* Get status of repository
+* Get status of repository.
 ```
 git status
 ```
-* Add files for adding to remote directory
+* Add files for adding for commit index or stage.
+_Typical Workflow is like  : Make Changes in files > Add > Commit > Push_
 
 ```
 git add .
 git add <filename>
 ```
-* Remove files for adding to remote directory
+* Remove files from commit index or stage 
 
 ```
 git rm .
 git rm <filename>
 ```
-* Commit Added Changes to local repository
+* Commit added changes to local repository
 ```
 git commit -m " Commit message"
 ```
-* Add and Commit changes together to local repository . This only includes files which were previously added.
+* Add and commit changes together to local repository . This only includes files which were previously added.
 ```
 git commit -a 
 ```
