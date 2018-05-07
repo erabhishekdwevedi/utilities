@@ -67,9 +67,14 @@ git push --set-upstream origin <branchname> // origin is remote repo
 ```
 git checkout <branchname>
 ```
-* Create a branch and checkout to New Branch
+* Create a branch and checkout to new branch
 ```
 git checkout -b <branchname>
+```
+* Copying changes from master to branch
+```
+git checkout <branchname>
+git merge master
 ```
 * Delete remote branch
 ```
