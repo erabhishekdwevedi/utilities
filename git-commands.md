@@ -26,28 +26,32 @@ git add <filename>
 git rm .
 git rm <filename>
 ```
-6. Commit Added Changes to repository
+6. Commit Added Changes to local repository
 ```
 git commit -m " Commit message"
 ```
-7. Fetch changes from remote repo and merge with your local repo to match the current state
+7. 6. Push commited Changes to remote repository
+```
+git push
+```
+8. Fetch changes from remote repo and merge with your local repo to match the current state
 
 ```
 git pull origin
 ```
-8. List All branches
+9. List All branches
 ```
 git branch
 ```
-9. Create New Branch
+10. Create New Branch
 ```
 git branch <branchname>
 ```
-10. Garbage Collection For your repository
+11. Garbage Collection For your repository
 ```
 git gc
 ```
-11. Force Exit from git command
+12. Force Exit from git command
 ```
 Press Esc + :q! 
 ```
