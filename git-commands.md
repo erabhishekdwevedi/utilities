@@ -1,5 +1,6 @@
-#Git Commands
+# Git Commands
 
+### Start
 * Git initiate a repository.
 
 ```
@@ -10,19 +11,15 @@ git init
 ```
 git clone <repo url>
 ```
-* Get status of repository.
-```
-git status
-```
+
+### Add & Deploy
 * Add files for adding for commit index or stage.
 _Typical Workflow is like  : Make Changes in files > Add > Commit > Push_
-
 ```
 git add .
 git add <filename>
 ```
 * Remove files from commit index or stage 
-
 ```
 git rm .
 git rm <filename>
@@ -42,13 +39,14 @@ git push
 * Fetch changes from remote repo and merge with your local repo to match the current state
 
 ```
+git pull 
+```
+* Fetch changes from remote repo and merge with your local repo to match the current state
+
+```
 git pull origin
 ```
-* Compare differences done since last commit
-```
-git diff
-Press Q to exit 
-```
+
 
 ### Branch
 * List All branches
@@ -86,6 +84,15 @@ git checkout -b <branchname>
 ```
 
 ### Others
+* Get status of repository.
+```
+git status
+```
+* Compare differences done since last commit
+```
+git diff
+Press Q to exit 
+```
 * Garbage Collection For your repository
 ```
 git gc
