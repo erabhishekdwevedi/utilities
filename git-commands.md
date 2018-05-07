@@ -49,6 +49,8 @@ git pull origin
 git diff
 Press Q to exit 
 ```
+
+### Branch
 * List All branches
 ```
 git branch
@@ -57,15 +59,28 @@ git branch
 ```
 git branch <branchname>
 ```
+* Create Remote Branch
+```
+git push --set-upstream origin <branchname> // origin is remote repo 
+```
 * Checkout or Switch to New Branch
 ```
 git checkout <branchname>
 ```
-
 * Create a branch and checkout to New Branch
 ```
 git checkout -b <branchname>
 ```
+* Delete remote branch
+```
+git push origin --delete <branchname>
+```
+* Delete local branch
+```
+git checkout -b <branchname>
+```
+
+### Others
 * Garbage Collection For your repository
 ```
 git gc
