@@ -69,7 +69,11 @@ git checkout <branchname>
 ```
 git checkout -b <branchname>
 ```
-* Copying changes from master to branch
+
+### Managing Branch
+
+* Copying changes from master to branch.
+Before merging , always ensure the local repository branches are updated using ```git pull```
 ```
 git checkout <branchname>
 git merge master
