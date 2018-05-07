@@ -72,8 +72,11 @@ git checkout -b <branchname>
 
 ### Managing Branch
 
+_Before merging,Always ensure the local repository branches are updated using_ ```git pull```
+_After merge make sure to_ do push using ```git push``` _to see changes in remote branch._
+
 * Copying changes from master to branch.
-Before merging , always ensure the local repository branches are updated using ```git pull```
+
 ```
 git checkout <branchname>
 git merge master
