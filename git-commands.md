@@ -43,6 +43,11 @@ git push
 ```
 git pull origin
 ```
+* Compare differences done since last commit
+```
+git diff
+Press Q to exit 
+```
 * List All branches
 ```
 git branch
