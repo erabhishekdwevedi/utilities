@@ -47,4 +47,7 @@ git branch <branchname>
 ```
 git gc
 ```
-
+11. Force Exit from git command
+```
+Press Esc + :q! 
+```
