@@ -57,6 +57,15 @@ git branch
 ```
 git branch <branchname>
 ```
+* Checkout or Switch to New Branch
+```
+git checkout <branchname>
+```
+
+* Create a branch and checkout to New Branch
+```
+git checkout -b <branchname>
+```
 * Garbage Collection For your repository
 ```
 git gc
