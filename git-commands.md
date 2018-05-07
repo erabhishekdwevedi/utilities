@@ -69,3 +69,13 @@ Press Esc + :q!
 ```
 Press Esc + ZZ 
 ```
+* Show logs of git 
+```
+git log
+git log --oneline
+git log --author ="Abhishek"
+git log -5 // count of logs to show
+git log --after="2018-1-1"
+git log --before="2018-1-1"
+git log --filename1.txt --filename2.md
+```
