@@ -1,2 +1,3 @@
-# utilities
-some utilities and tools details for developers
+# Utilities
+
+Some common code required by all kinds of developers
