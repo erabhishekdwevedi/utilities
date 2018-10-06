@@ -19,6 +19,38 @@ Put Hash or Pound Sign # before text to make them header, one hash for Heading 1
 
 ```
 
+## List
+
+# Link
+
+'''
+  Unordered
+  * List 1
+  * List 2
+  * List 3
+  
+   Unordered
+  + List 1
+  + List 2
+  + List 3
+ 
+   Ordered
+  1. List 1
+  1. List 2
+  1. List 3
+  
+
+'''
+
+## Code
+
+'''
+  '''
+   alert("Hello");
+  '''
+
+'''
+
 ## Blockquotes
 ```
 Put > before text to make it block
