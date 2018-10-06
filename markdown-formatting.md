@@ -26,7 +26,6 @@ Syntax:
 > This is example block
 >
 > Block can be used to define sections
->
 > Highlight text,
 
 ```
@@ -34,5 +33,4 @@ Syntax:
 > This is example block
 >
 > Block can be used to define sections
->
 > Highlight text,
