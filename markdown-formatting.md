@@ -39,19 +39,13 @@ Put Hash or Pound Sign # before text to make them header, one hash for Heading 1
   1. List 2
   1. List 3
   
-
 '''
 
 ## Code
 
 ```
   Use ``` for code block and ` for inline
-  
-  This is `javascript code`
-
-```
-   alert("Hello");
-```
+ 
 ```
 
 This is `javascript code`
