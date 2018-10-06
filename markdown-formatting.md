@@ -45,11 +45,17 @@ Put Hash or Pound Sign # before text to make them header, one hash for Heading 1
 ## Code
 
 '''
+ this is 'javascript code'
   '''
    alert("Hello");
   '''
+'''
+
+ this is 'javascript code'
 
 '''
+   alert("Hello");
+  '''
 
 ## Blockquotes
 ```
