@@ -26,7 +26,7 @@ Put > before text to make it block
 ```
 
 > This is example block
-
+>
 > Block can be used to define sections
-
+>
 > Highlight text,
