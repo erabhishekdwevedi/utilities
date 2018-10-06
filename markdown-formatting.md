@@ -19,11 +19,12 @@ Put Hash or Pound Sign # before text to make them header, one hash for Heading 1
 
 ```
 
+## Blockquotes
 ```
 Put > before text to make it block
 
 ```
 
-> This is example block
-> Block can be used to define sections 
-> Highlight text
+> This is example block,
+> Block can be used to define sections,
+> Highlight text,
