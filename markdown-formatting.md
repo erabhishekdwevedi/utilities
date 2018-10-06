@@ -44,18 +44,21 @@ Put Hash or Pound Sign # before text to make them header, one hash for Heading 1
 
 ## Code
 
-'''
- this is 'javascript code'
-  '''
-   alert("Hello");
-  '''
-'''
+```
+  Use ``` for code block and ` for inline
+  
+  This is `javascript code`
 
- this is 'javascript code'
-
-'''
+```
    alert("Hello");
-  '''
+```
+```
+
+This is `javascript code`
+
+```
+   alert("Hello");
+```
 
 ## Blockquotes
 ```
