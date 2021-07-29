@@ -46,6 +46,20 @@ Sample JSON
 
 ```
 
+JQ can be used independently or used with response of other commands using pipe.
+
+Prettify JSON 
+```
+jq "." sample.json
+```
+
+Pretty json response 
+
+```
+cat sample.json | jq "."
+```
+
+
 Getting name 
 ```
 cat sample.json| jq -r ".name"
@@ -96,7 +110,42 @@ Response:
 ]
 
 ```
+Slicing Array
 
+```
+jq ".objectives.objective[2,3]" sample.json
+```
+
+Response
+```
+{
+  "topic": "Usage",
+  "description": "Examples showing usage of JQ",
+  "type": "Code"
+}
+{
+  "topic": "Reference",
+  "description": "References and Links",
+  "type": "Hyperlinks"
+}
+```
+
+#### Getting Keys From JSON Array
+
+```
+jq ".objectives.objective | keys" sample.json
+````
+
+RESPONSE
+
+```
+[
+  0,
+  1,
+  2,
+  3
+]
+```
 
 
 #### Reference
