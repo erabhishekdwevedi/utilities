@@ -1,0 +1,11 @@
+# Color Code of Linux files
+
+ ls command uses the environment variable “LS_COLORS” to determine the colors in which the filenames are to be displayed.
+
+- White (No color code): Regular File or Normal File
+- Blue: Directory
+- Bright Green: Executable File
+- Bright Red: Archive file or Compressed File
+- Magenta: Image File
+- Cyan: Audio File
+- Sky Blue: Symbolic Link File
