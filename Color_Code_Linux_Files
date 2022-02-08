@@ -6,6 +6,9 @@
 - Blue: Directory
 - Bright Green: Executable File
 - Bright Red: Archive file or Compressed File
+- Red with black background: Broken link
+- Yellow with black background: Device
+- Sky Blue: Symbolic Link File
 - Magenta: Image File
 - Cyan: Audio File
-- Sky Blue: Symbolic Link File
+
